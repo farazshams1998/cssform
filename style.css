@@ -1,0 +1,56 @@
+ /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        body{
+            background: url(images.jpeg);
+        }
+        #container{
+
+            background-color: rgba(7, 164, 255, 0.178);
+            width: 20%;
+            height: 20%;
+            margin-top: 188px;
+            margin-left: 483px;
+            padding: 15px;
+           box-shadow: 3px 3px 15px rgb(0, 110, 255);
+        }
+        h1{
+            color: rgb(255, 238, 4);
+            font-size: 39px;
+            padding-left: 12px;
+        }
+        label{
+            color: aliceblue;
+        }
+        input{
+            border: none;
+           
+        }
+        input:focus{
+            background-color: rgb(238, 238, 238);
+        }
+        input:hover{
+            background-color: beige;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: rgb(255, 188, 3);
+            cursor: pointer;
+        }
+        button{
+            border: none;
+            background-color: rgb(0, 110, 255);
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            text-decoration: none;
+            height: 30px;
+            width: 100px;
+            font-size: larger;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        
+        }
+        ion-icon{
+            color: aliceblue;
+        }
